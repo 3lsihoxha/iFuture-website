@@ -1,0 +1,50 @@
+
+<mat-toolbar class="navbar">
+
+  <div class="items">
+    <div class="leftimage"><img src="/assets/zoomed-landscape-ifuture-final.png" alt="" class="navlogo" routerLink=""></div>
+    <div class="tabs">
+    <ul>
+      <li routerLink="">Home</li>
+      <li routerLink="services"> Services</li>
+      <li routerLink="contact">Contact</li>
+      <li routerLink="/calendar" id="company">Appointment </li>
+    </ul>
+  </div>
+
+  <div class="rightbutton"><button class="sidenavbutton" routerLink="/calendar">Start a Project</button></div>
+     
+  </div>
+  </mat-toolbar>
+
+  <div class="mobilenav">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  <input type="checkbox" id="active" />
+    <label for="active" class="menu-btn"><i class="fas fa-bars" id="i"></i></label>
+
+    <div class="wrapper">
+      <div class="leftimage"><img src="/assets/ifuturepng.png" alt="" class="navlogo2" routerLink=""></div>
+      <ul>
+      <li routerLink="">Home</li>
+      <li routerLink="services" > Services</li>
+      <li routerLink="contact" >Contact</li>
+      <li routerLink="/calendar" id="company" >Appointment </li>
+      <li><button id="mobilebutton" routerLink="/calendar">Start a project</button></li>
+      </ul>
+      
+    </div>
+  </div>
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+

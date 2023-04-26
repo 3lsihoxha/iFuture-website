@@ -1,0 +1,114 @@
+
+<app-loader *ngIf="showLoader">
+    
+    
+    <div class="loader">
+        <img src="/assets/zoomed-landscape-ifuture-final-onlylogo.png" alt="image"><br>
+      <div class="spinner"></div>
+    </div>
+  
+</app-loader>
+
+<div class="slogan">
+   the future is yours.
+    <div class="subslogan">Empowering Innovation for a Smarter Tomorrow...</div>
+
+  <div class="buttons">
+    <button class="buttonone" routerLink="/calendar">Start Now</button>
+    <button class="buttontwo">Join Us</button>
+  </div>
+
+</div>
+
+<div class="bestservices">
+  
+  <div class="title">
+    Best Services To Grow Your <br> Business Value
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <i class="fa-brands fa-uncharted" id="fa"></i><br><br><br>
+      <span class="boxtitle">Web & Software Development</span><br><br>
+      <span class="subcontent">Smart engineering of secure, intuitive, and high-performing web applications to help you interact with your customers.</span><br><br><br><br>
+      <span class="viewdetails" routerLink="/services">View Details </span>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-cubes" id="fa"></i><br><br><br>
+      <span class="boxtitle">Design & User Experience</span><br><br>
+      <span class="subcontent">Eye-catching UX/UI and motion graphics design for captivating, easy-to-use products that build your brand’s visual identity.</span><br><br><br>
+      <span class="viewdetails" routerLink="/services">View Details </span>
+    </div>
+    <div class="box">
+      <i class="fa-sharp fa-solid fa-circle-nodes" id="fa"></i><br><br><br>
+      <span class="boxtitle">Branding & Marketing</span><br><br>
+      <span class="subcontent">Strong brands have distinct visual and verbal identities that are instantly recognizable in every brand experience.</span><br><br><br><br>
+      <span class="viewdetails" routerLink="/services">View Details </span>
+    </div>
+  </div><br><br><br><br>
+
+</div>
+
+<!-- next -->
+
+<div class="whatweoffer">
+
+  <div class="title2">
+    What happens after <br>contacting us 
+  </div>
+
+<div class="container2">
+  <div class="box2">
+    <i class="fa-solid fa-folder-tree" id="fa2"></i>
+    <span class="boxtitle2">Estimation</span>
+    <span class="subcontent2">We listen to understand what you want to build, what features your product should have, and what purpose it will serve to your customers.</span><br><br><br><br>
+    
+  </div>
+  <div class="box2">
+    <i class="fa-solid fa-paste" id="fa2"></i>
+    <span class="boxtitle2">Planning</span>
+    <span class="subcontent2">This is one of the main steps of product development, in which all features are bundled into a list, prioritized, and displayed on a timeline.</span><br><br><br><br>
+   
+  </div>
+  <div class="box2">
+    <i class="fa-solid fa-code" id="fa2"></i>
+    <span class="boxtitle2">Design & coding</span>
+    <span class="subcontent2">Through user research and tests, we define how the final product will look like, following with building your software using the defined technologies.</span><br><br><br><br>
+    
+  </div>
+  <div class="box2">
+    <i class="fa-solid fa-rocket" id="fa2"></i>
+    <span class="boxtitle2">Testing & Release</span>
+    <span class="subcontent2">Automated and manual testing to assure the quality of the code and the user experience. After this we take your product live and are glad to support its growth.</span><br><br><br><br>
+    
+  </div>
+</div>
+
+</div>
+
+<!-- next -->
+
+<div class="feedback">
+
+  <div class="lastleftbox">
+    <span id="title3">What Customer's Say <br>About Us</span>
+  </div>
+  
+  <div class="lastrightbox">
+    <img src="/assets/dots.png" alt="" id="dots"><br>
+    <img src="/assets/stars.jpg" alt="" id="stars">
+    <div class="review">
+      Pas eksperiencave të këqija me studio të tjera programimi, ndihem shumë e lumtur që bashkëpunova më në fund me një studio serioze dhe të shpejtë. Ishin të gatshëm të bënin një faqe sipas dëshirës sime dhe temës së biznesit, dhe e bënë këtë gjë në mënyrën më të mirë të mundshmë. Faqa është funksionale dhe solli goxha shitje për biznesin si një mjet për porosi direkte nga klienti.
+    </div>
+    <div class="name">
+      Klajdi A.
+    </div>
+  </div>
+
+</div>
+
+
+  <app-footer></app-footer>
+  <router-outlet></router-outlet>
+
+

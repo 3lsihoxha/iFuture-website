@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
+
+$grey: rgb(2, 8, 81);
+
+font-face {
+    font-family: rubik;
+    src: url(assets/Rubik/Rubik-VariableFont_wght.ttf) format('truetype');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: rubik;
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      background-color: #f5f5f5;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+      border-radius: 5px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #aaa;
+    }
+}
+@media (max-width: 767px){
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
