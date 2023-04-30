@@ -40,7 +40,10 @@ footer {
       li:nth-child(2){
         margin-top: 20px;
       }
-      
+      ul li:hover{
+        color: #6E6EFD;
+        transition: 0.2s;
+      }
       #title{
         cursor: pointer;
       }
@@ -50,7 +53,14 @@ footer {
     }
 
     //////////////////////////////////////
-   
+   a{
+    text-decoration: none;
+    color: #575757;
+   }
+   a:hover{
+    color: #6E6EFD;
+    transition: 0.3s;
+   }
     
     .copyright{
         border-top: 1px solid #c5c5c5;
